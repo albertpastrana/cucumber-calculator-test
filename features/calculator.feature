@@ -11,7 +11,7 @@ Feature: Calculator
     And I have entered 16 into the calculator
     And I press add
     And I have entered 23 into the calculator
-    And I press add
+    When I press add
     Then the result should be 54 on the screen
 
   Scenario: As a user, I want to subtract two numbers
@@ -23,7 +23,7 @@ Feature: Calculator
   Scenario: As a user, I want to divide two numbers
     # FIXME
 
-  Scenario: As a user, I want to perform put one number to the power of another
+  Scenario: As a user, I want to put one number to the power of another
     # FIXME
 
   Scenario: As a user, I want to be able to clear the screen
